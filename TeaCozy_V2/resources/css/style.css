@@ -1,0 +1,140 @@
+/* Global */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+span a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+  margin: auto;
+}
+
+/* Main Content */
+
+.main-content {
+  padding-top: 69px;
+}
+
+  /* Our Mission */
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  margin: auto;
+  align-items: center;
+}
+
+.mission-content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+  /* Tea of the Month */
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  padding-top: 69px;
+  margin: auto;
+}
+
+.featured-item {
+  padding: 5px;
+}
+
+.featured-item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.featured-item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+
+  /* Locations */
+
+#location {
+  margin: auto;
+  height: 500px;
+  padding-top: 69px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.location-items {
+  margin: auto;
+  width: 100%;
+}
+
+.location-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  opacity: 1;
+  margin: 5px 20px;
+}
+
+/* Contact */
+#contact {
+  height: 200px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
